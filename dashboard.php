@@ -8,16 +8,18 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>Portal Dashboard</title>
 	
-	<!-- CSS -->
+	<!-- Bootstrap core files -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- Custom style -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<?php include('templates/navbar-dash.html'); ?>
+	<?php include('templates/navbar-dash.html'); ?>
 
 	<!-- Javascript -->
-	<script src="js/bootstrap.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
